@@ -1,0 +1,150 @@
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(../font/NanumSquareAcB.woff);
+}
+
+
+body {
+    margin: 0;
+    font-family: "이쁜폰트";
+}
+
+p,
+h4,
+h3,
+h2,
+h1,
+span {
+    transform: rotate(0.3deg);
+}
+
+
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+h4,
+h5 {
+    color: white;
+    font-size: 16px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4e4c50;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    padding: 13px;
+    color: white;
+}
+
+.first-box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, #4d95be 0%, #4d5dbe 100%);
+}
+
+.first-box-info {
+    margin: 60px;
+}
+
+.phone-img {
+    margin-top: 80px;
+    margin-right: 40px;
+}
+
+.main-box {
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+.second-box,
+.second-box-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-box {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.third-box {
+    width: 100%;
+    background: #4e61c0;
+    margin-bottom: 50px;
+}
+
+.offer-container {
+    display: flex;
+    margin: 0px 100px 0px;
+}
+
+.offer-items {
+    width: 25%;
+    margin: 30px;
+    text-align: center;
+}
+
+i {
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+    color: #4e61c0;
+    font-size: 30px;
+
+}
+
+
+.fifth-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    margin: 10px 90px;
+
+}
+
+.sta-item {
+    background-repeat: round;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.sta-item h3 {
+    margin: 40px 50px 0px;
+}
+
+.sta-item h5 {
+    margin: 20px 50px;
+}
+
+.sta-item:hover {
+    transform: scale(0.9);
+}
+
+
+.messenger-items {
+    margin: 40px;
+}
+
+.messenger-container {
+    display: flex;
+    justify-content: center;
+}
+
+.messenger-items i {
+    color: white;
+    background: #4e61c0;
+}
+
+
+

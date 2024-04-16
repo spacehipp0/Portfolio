@@ -1,0 +1,77 @@
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(../font/NanumSquareAcB.woff);
+}
+
+
+body {
+    margin: 0px;
+    font-family: '이쁜폰트';
+    
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.skill_btn {
+    color: black;
+    border-color: black;
+    border-radius: 80%;
+    padding: 7px;
+}
+
+.background-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8f9fd;
+}
+
+.main-box div{
+    background-color: white;
+}
+
+i {
+    color: #6fb9f6;
+}
+
+.v-line {
+    border-right: solid #e8e8e8;
+}
+
+.Profile {
+    display: flex;
+}
+
+.Profile_nav {
+    width: 10%;
+    font-size: 20px;
+    text-align: center;
+    color: #6fb9f6;;
+    border-bottom: solid #6fb9f6;
+    padding-bottom: 10px;
+    
+}
+
+.Profile_empty {
+    width: 100%;
+    border-bottom: solid #e8e8e8;
+}
+
+.b-line {
+    border-bottom: solid #e8e8e8;
+}
+
+.skill_container .btn {
+    border-radius: 50px;
+    margin: 0px 5px;
+    
+}
+
+.sign_up_box {
+    text-align: center;
+}
+
+.sign_up_box i {
+    font-size: 70px;
+}
